@@ -309,12 +309,12 @@ text-align:justify;}
       }
       /* style the labels when their corresponding inputs are checked */
       input[type="checkbox"],input[type="radio"],:checked + label, input[type="radio"]:checked + label {
-      background: #640020;
+      background: #170035;
       color: white;
       }
       /* style the custom check boxes and radios when their corresponding inputs are checked */
       input[type="checkbox"]:checked + label > span, input[type="radio"]:checked + label > span {
-      background: #640020;}
+      background: #170035;}
       select {
       min-width:170px;
       height:40px;
