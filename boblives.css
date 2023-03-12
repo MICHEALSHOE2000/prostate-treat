@@ -926,6 +926,34 @@ html, body {width: auto!important;
   background-color:#665ae4;
   color:white;
            } 
-          
+  .healthy{background-color:#c80f2e;
+color:white;
+text-align:center;
+vertical-align:middle;
+justify-content:center;}
+ol {
+  line-height: 2;
+}
+
+ol li {
+  list-style-type: none;
+  counter-increment: item;
+}
+
+ol li:before {
+  content: counter(item);
+  display: inline-block;
+  width: 12px;
+  height: 20px;
+  font-family: "Indie Flower", cursive;
+  margin-right: 5px;
+  background-color: #f9dd94;
+  color: #7eb4e2;
+  font-weight: bold;
+  font-size: 140%;
+  padding: 0 8px 8px;
+  border-radius: 3px;
+  line-height: 1.3;
+}
           
  
