@@ -5,7 +5,7 @@ body {
     margin:0;
 }
 .navbar {
-    background:#173459;
+    background:#fa2020;
 }
 .logo{
 padding:0;
@@ -65,7 +65,7 @@ width:70%;}
   position: absolute;
   bottom: 5px;
   right: 8px;
-  color:#173459;
+  color:#fa2020;
   font-weight: 900;
   }
   img {
@@ -187,7 +187,7 @@ height:auto;}
 .imported{color:red;
 text-align:center;}
 body{font-family:monteserrat;}
-.upper{background:#173459;
+.upper{background:#fa2020;
 color:white}
 .xlarge{
  font-family:`Tangerine' seriff;
@@ -230,7 +230,7 @@ text-align:justify;}
       .form-container {
          margin: 20px;
          padding: 15px;
-         background: #173459;
+         background: #fa2020;
          color: white;
          -shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.3), 0 7px 21px 0 rgba(0, 0, 0, 0.20);
       }
@@ -309,12 +309,12 @@ text-align:justify;}
       }
       /* style the labels when their corresponding inputs are checked */
       input[type="checkbox"],input[type="radio"],:checked + label, input[type="radio"]:checked + label {
-      background: #173459;
+      background: #fa2020;
       color: white;
       }
       /* style the custom check boxes and radios when their corresponding inputs are checked */
       input[type="checkbox"]:checked + label > span, input[type="radio"]:checked + label > span {
-      background: #173459;}
+      background: #fa2020;}
       select {
       min-width:170px;
       height:40px;
@@ -342,7 +342,7 @@ text-align:justify;}
  white-space:nowrap;
  color:white;
 position:relative;
-background-color:#173459;;
+background-color:#fa2020;;
 }
 
 .cssmarquee p {
@@ -465,7 +465,7 @@ justify-content:space-between;
 text-align:center;}
 
 .footer-distributed{
- background-color: #173459;;
+ background-color: #fa2020;;
  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
  box-sizing: border-box;
  width: 100%;
