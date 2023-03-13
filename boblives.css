@@ -436,8 +436,8 @@ html, body {width: auto!important;
   
   .whats-app{
   position: fixed;
-  width: 80px;
-  height: 80px;
+  width: 90px;
+  height: 90px;
   bottom: 15px;
   background-color: #25d366;
   color: #FFF;
