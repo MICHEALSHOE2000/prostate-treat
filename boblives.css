@@ -103,6 +103,10 @@ html, body {width: auto!important;
 .big-text {
     font-size: 24px; /* Adjust the font size as needed */
 }
+.highlighted-text {
+    background-color: yellow; /* Change the color to your preferred highlight color */
+    font-weight: bold; /* Optionally, you can make the text bold */
+}
  @import 'https://fonts.googleapis.com/css?family=Roboto';
      html, body {
      }
