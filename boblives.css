@@ -96,6 +96,13 @@ html, body {width: auto!important;
  flex-wrap:nowrap;
  justify-content:space-between;
  }}
+.paragraph-container {
+    margin: 20px; /* Adjust the margin size as needed */
+}
+
+.big-text {
+    font-size: 24px; /* Adjust the font size as needed */
+}
  @import 'https://fonts.googleapis.com/css?family=Roboto';
      html, body {
      }
