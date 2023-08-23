@@ -1,18 +1,35 @@
 <!DOCTYPE html>
-     <html lang='en'>
-     <head>
-     <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-PRM3VP1QR9"></script>
+<html lang='en'>
+<head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-11305411013"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
 
-  gtag('config', 'G-PRM3VP1QR9');
+  gtag('config', 'AW-11305411013');
 </script>
-     <meta charset="UTF-8" />
-     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-     <!-- CSS only -->
+  <!-- Event snippet for fib conversion page
+In your html page, add the snippet and call gtag_report_conversion when someone clicks on the chosen link or button. -->
+<script>
+function gtag_report_conversion(url) {
+  var callback = function () {
+    if (typeof(url) != 'undefined') {
+      window.location = url;
+    }
+  };
+  gtag('event', 'conversion', {
+      'send_to': 'AW-11305411013/CnhwCML1hNQYEMXD644q',
+      'event_callback': callback
+  });
+  return false;
+}
+</script>
+
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
      
      
      <title>
@@ -252,9 +269,7 @@
      
      </h2>
      <div class="form-container">
-     <form id="contactform" action="https://formspree.io/f/xeqvnlve"
-     name="my" onsubmit="return(validate())" method="post">
-     
+     <form name="contact" netlify>     
      <div class="input-cnt">
      <i class="material-icons">person</i>
      <input type="text" placeholder="Name" name="Name" />
@@ -332,7 +347,7 @@
      
      
      <div class="input-cnt">
-     <input type="submit" />
+       <center> <button type="submit" id="submit-button" onclick="gtag_report_conversion();">GET MY PACK NOW</button> </center>
      </div>
      
      </form></div>
