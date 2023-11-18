@@ -141,6 +141,35 @@ html, body {width: auto!important;
     background-color: yellow; /* Change the color to your preferred highlight color */
     font-weight: bold; /* Optionally, you can make the text bold */
 }
+.black-background-text {
+  background-color: #000; /* Set the black background color */
+  color: #fff; /* Set the text color to white */
+  font-size: 20px; /* Set the font size to make it big */
+  padding: 15px; /* Add some padding for better visibility */
+}
+.styled-list {
+  list-style-type: none; /* Remove default list styling */
+  padding: 0;
+}
+
+.styled-list li::before {
+  content: "\2022"; /* Unicode character for a bullet point */
+  color: #fff; /* Set the color of the bullet point */
+  display: inline-block;
+  width: 1em; /* Adjust the width of the bullet point */
+  margin-left: -1em; /* Counteract the space between the bullet point and text */
+}.styled-list {
+            list-style-type: none; /* Remove default list styling */
+            padding: 0;
+        }
+
+        .styled-list li::before {
+            content: "\2022"; /* Unicode character for a bullet point */
+            color: black; /* Set the color of the bullet point */
+            display: inline-block;
+            width: 1em; /* Adjust the width of the bullet point */
+            margin-left: -1em; /* Counteract the space between the bullet point and text */
+        }
  @import 'https://fonts.googleapis.com/css?family=Roboto';
      html, body {
      }
