@@ -153,8 +153,86 @@ function gtag_report_conversion(url) {
             <h1 class="text-center"><b>Inside every Capsules of "PROSTATE WEL" you'll find:</b></h1>
             <p class="bigger text-center medium pt-3">100% natural and unique ingredients that are clinically proven to
                 support the <br class="d-none d-md-inline-block"> health of your prostate and urinary system</p>
-             <a href="https://api.whatsapp.com/send?phone=2349151625737&text=Good%20day%2C%20I%20want%20to%20order%20the%20prostate%20wel%20solution%20capsules." target="_blank">
-<img src="img/whatsapp.png" alt="order through whatsapp"><br></a>
+             <h2 style="text-align: center"> Fill this Contact 
+     
+     </h2>
+          <div class="form-container">
+            <form action="https://formspree.io/f/xeqvnlve" method="POST">
+    <div class="input-cnt">
+      <i class="material-icons">person</i>
+      <input type="text" placeholder="Name" name="Name" />
+    </div>
+    <div class="input-cnt">
+      <i class="material-icons">phone No</i>
+      <input type="tel" name="Phone no" placeholder="07088888555" minlength="11" pattern="\d{11}" title="Please check your number well" required />
+    </div>
+    <div class="input-cnt">
+      <i class="material-icons">phone NoAgain</i>
+      <input type="tel" name="Phone noAgain" placeholder="07088888555" minlength="11" pattern="\d{11}" title="Please check your number well" required />
+    </div>
+    <div class="input-cnt">
+      <i class="material-icons">State</i>
+      <div class="custom_select">
+        <select name="state" id="select" required>
+          <option value="ABUJA FCT">ABUJA</option>
+     <option value="ABIA">ABIA</option>
+     <option value="ADAMAWA">ADAMAWA</option>
+     <option value="AKWA IBOM">AKWA IBOM</option>
+     <option value="BAUCHI">BAUCHI</option>
+     <option value="BAYELSA">BAYELSA</option>
+     <option value="BENUE">BENUE</option>
+     <option value="BORNO">BORNO </option>
+     <option value="CROSS RIVER">CROSS RIVER</option>
+     <option value="DELTA">DELTA</option>
+     <option value="EBONYI">EBONYI</option>
+     <option value="EDO">EDO</option>
+     <option value="EKITI">EKITI</option>
+     <option value="ENUGU">ENUGU</option>
+     <option value="GOMBE">GOMBE</option>
+     <option value="IMO">IMO</option>
+     <option value="JIGAWA">JIGAWA</option>
+     <option value="KADUNA">KADUNA</option>
+     <option value="KANO">KANO</option>
+     <option value="KATSINA">KATSINA</option>
+     <option value="KEBBI">KEBBI</option>
+     <option value="KOGI">KOGI</option>
+     <option value="KWARA">KWARA</option>
+     <option value="LAGOS">LAGOS</option>
+     <option value="NASSARAWA">NASSARAWA</option>
+     <option value="NIGER">NIGER</option>
+     <option value="OGUN">OGUN</option>
+     <option value="ONDO">ONDO</option>
+     <option value="OSUN">OSUN</option>
+     <option value="OYO">OYO</option>
+     <option value="PLEATEU">PLEATEU</option>
+     <option value="RIERS">RIVERS</option>
+     <option value="SOKOTO">SOKOTO</option>
+     <option value="TARABA">TARABA</option>
+     <option value="YOBE">YOBE</option>
+     <option value="ZAMFARA">ZAMFARA</option>
+        </select>
+      </div>
+    </div>
+    <div class="input-cnt">
+      <i class="material-icons">Address</i>
+      <input type="text" name="Location" required />
+    </div>
+    <h3 style="text-align: center;">Choose Quantity Required</h3>
+    <input type="radio" name="amount" value="1bottle" id="1bottle" />
+    <label  for="1bottle"><span></span><b>One bottle of the PROSTATE WEL SOLUTION CAPSULES &#8358 25,000</b> </label>
+     <input type="radio" name="amount" value="2bottle" id="2bottle" />
+     <label for="2bottle"><span></span><b>Two bottles of the PROSTATE WEL SOLUTION CAPSULES &#8358 40,000</b></label>
+     
+     <input type="radio" name="amount" value="3bottle" id="3bottle" />
+     <label for="3bottle"><span></span><b> Three bottles of the PROSTATE WEL SOLUTION CAPSULES &#8358 50,000</b><span class="highlighted-text">recomended</span> </label>
+     
+     <input type="radio" name="amount" value="4bottle" id="4bottle" />
+     <label for="4bottle"><span></span><b> Four bottles of the PROSTATE WEL SOLUTION CAPSULES &#8358 60,000</b> </label>
+     <input type="hidden" name="conversion" value="button_click">
+       <center> <button type="submit" id="submit-button" class="call-to-action-button" onclick="gtag_report_conversion();">GET MY PACK NOW</button> </center>
+     </div>
+  </form>
+</div>
             <div class="row mx-auto mt-5 mb-3">
                 <div class="col-12 col-lg-4">
                     <img src="img/ba.png" style="width: 50%; height: 50%;"
